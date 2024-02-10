@@ -1,0 +1,7 @@
+{
+  "name": "Forza Horizon 4",
+  "default_layout": "custom",
+  "layouts": [
+    "based-throttle"
+  ]
+}
