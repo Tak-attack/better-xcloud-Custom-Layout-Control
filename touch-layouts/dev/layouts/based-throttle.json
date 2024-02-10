@@ -237,18 +237,9 @@
 						},
 						[
 							{
-								"type": "button",
-								"action": "leftTrigger",
-								"styles": {
-									"default": {
-										"faceImage": {
-											"type": "icon",
-											"value": "brakePedal"
-										}
-									}
-								}
+							"type": "blank"
 							},
-							null
+						null
 						],
 						{
 							"type": "button",
