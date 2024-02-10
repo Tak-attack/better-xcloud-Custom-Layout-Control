@@ -236,9 +236,7 @@
 							}
 						},
 						[
-							{
-							"type": "blank"
-							},
+						null,
 						null
 						],
 						{
