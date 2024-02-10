@@ -235,12 +235,8 @@
 								}
 							}
 						},
-						[
-							{
-								"type": "blank",
-							},
-							null
-						],
+						null,
+						null,
 						{
 							"type": "button",
 							"action": "gamepadX",
