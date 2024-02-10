@@ -1,0 +1,102 @@
+{
+	"schema_version": 1,
+	"layouts": {
+		"custom": {
+			"name": "Fighting",
+			"content": {
+				"left": {
+					"inner": [
+						{
+							"type": "directionalPad",
+							"interaction": {
+								"activationType": "allowNeighboring"
+							},
+							"scale": 2
+						}
+					]
+				},
+				"right": {
+					"inner": [
+						{
+							"type": "arcadeButtons",
+							"lightPunch": {
+								"action": "gamepadX",
+								"styles": {
+									"default": {
+										"faceImage": {
+											"type": "icon",
+											"value": "lightPunch"
+										}
+									}
+								}
+							},
+							"mediumPunch": {
+								"action": "gamepadY",
+								"styles": {
+									"default": {
+										"faceImage": {
+											"type": "icon",
+											"value": "mediumPunch"
+										}
+									}
+								}
+							},
+							"heavyPunch": {
+								"action": "rightBumper",
+								"styles": {
+									"default": {
+										"faceImage": {
+											"type": "icon",
+											"value": "heavyPunch"
+										}
+									}
+								}
+							},
+							"lightKick": {
+								"action": "gamepadA",
+								"styles": {
+									"default": {
+										"faceImage": {
+											"type": "icon",
+											"value": "lightKick"
+										}
+									}
+								}
+							},
+							"mediumKick": {
+								"action": "gamepadB",
+								"styles": {
+									"default": {
+										"faceImage": {
+											"type": "icon",
+											"value": "mediumKick"
+										}
+									}
+								}
+							},
+							"heavyKick": {
+								"action": "leftBumper",
+								"styles": {
+									"default": {
+										"faceImage": {
+											"type": "icon",
+											"value": "heavyKick"
+										}
+									}
+								}
+							}
+						}
+					]
+				},
+				"upper": {
+					"right": [
+						{
+							"type": "button",
+							"action": "menu"
+						}
+					]
+				}
+			}
+		}
+	}
+}

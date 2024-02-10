@@ -1,0 +1,7 @@
+{
+	"name": "Testflight(RPG Time)",
+	"default_layout": "custom",
+	"layouts": [
+		"fighting"
+	]
+}
