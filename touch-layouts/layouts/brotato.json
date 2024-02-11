@@ -22,41 +22,29 @@
               "action": "gamepadA",
               "styles": {
                 "idle": {
-                  "opacity": 0.5
+                  "opacity": 0.7
                 }
               }
             },
-            [
-              {
-                "type": "directionalPad",
-                "scale": 1.2,
-                "interaction": {
-                  "activationType": "exclusive"
-                },
-                "styles": {
-                  "idle": {
-                    "opacity": 0.5
-                  }
-                }
-              }
-            ],
             null,
             null,
-            {
-              "type": "button",
-              "action": "leftBumper",
-              "styles": {
-                "idle": {
-                  "opacity": 0.5
-                }
-              }
-            },
+            null,
+            null,
             {
               "type": "button",
               "action": "gamepadB",
               "styles": {
                 "idle": {
-                  "opacity": 0.5
+                  "opacity": 0.7
+                }
+              }
+            },
+            {
+              "type": "button",
+              "action": "leftBumper",
+              "styles": {
+                "idle": {
+                  "opacity": 0.7
                 }
               }
             }
@@ -89,44 +77,32 @@
           "outer": [
             {
               "type": "button",
-              "action": "gamepadB",
+              "action": "leftBumper",
               "styles": {
                 "idle": {
-                  "opacity": 0.5
+                  "opacity": 0.7
                 }
               }
             },
             {
               "type": "button",
-              "action": "rightBumper",
+              "action": "gamepadB",
               "styles": {
                 "idle": {
-                  "opacity": 0.5
+                  "opacity": 0.7
                 }
               }
             },
             null,
             null,
-            [
-              {
-                "type": "directionalPad",
-                "scale": 1.2,
-                "interaction": {
-                  "activationType": "exclusive"
-                },
-                "styles": {
-                  "idle": {
-                    "opacity": 0.5
-                  }
-                }
-              }
-            ],
+            null,
+            null,
             {
               "type": "button",
               "action": "gamepadA",
               "styles": {
                 "idle": {
-                  "opacity": 0.5
+                  "opacity": 0.7
                 }
               }
             }
@@ -155,24 +131,6 @@
                 "output": "leftJoystick"
               }
             }
-          ],
-          "outer": [
-            null,
-            null,
-            [
-              {
-                "type": "directionalPad",
-                "scale": 1.2,
-                "interaction": {
-                  "activationType": "exclusive"
-                },
-                "styles": {
-                  "idle": {
-                    "opacity": 0.5
-                  }
-                }
-              }
-            ]
           ]
         },
         "right": {
@@ -219,24 +177,6 @@
                 "output": "leftJoystick"
               }
             }
-          ],
-          "outer": [
-            null,
-            null,
-            [
-              {
-                "type": "directionalPad",
-                "scale": 1.2,
-                "interaction": {
-                  "activationType": "exclusive"
-                },
-                "styles": {
-                  "idle": {
-                    "opacity": 0.5
-                  }
-                }
-              }
-            ]
           ]
         },
         "right": {
@@ -268,7 +208,7 @@
                 "styles": {
                   "idle": {
                     "knob": {
-                      "opacity": 0.5
+                      "opacity": 0.7
                     }
                   }
                 }
