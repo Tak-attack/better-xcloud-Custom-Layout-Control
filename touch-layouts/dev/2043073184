@@ -1,0 +1,7 @@
+{
+	"name": "Testflight(Halo infinite)",
+	"default_layout": "Test1",
+	"layouts": [
+		"test1"
+	]
+}
