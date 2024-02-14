@@ -1,0 +1,577 @@
+{
+  "schema_version": 1,
+  "layouts": {
+    "Test1": {
+      "name": "TestLayout1",
+      "content": {
+        "left": {
+          "inner": [
+            {
+              "type": "joystick",
+              "expand": false,
+              "axis": {
+                "input": "axisXY",
+                "output": "leftJoystick",
+                "deadzone": {
+                  "threshold": 0.05,
+                  "radial": true
+                }
+              }
+            }
+          ],
+          "outer": [
+            {
+              "type": "joystick",
+              "expand": true,
+              "axis": {
+                "input": "axisXY",
+                "output": "leftJoystick",
+                "deadzone": {
+                  "threshold": 0.05,
+                  "radial": false
+                }
+              }
+            },
+            {
+              "type": "joystick",
+              "expand": true,
+              "axis": {
+                "input": "axisXY",
+                "output": "leftJoystick",
+                "deadzone": {
+                  "threshold": 0.05,
+                  "radial": false
+                }
+              },
+              "styles": {
+                "default": {
+                  "knob": {
+                    "faceimage": {
+                      "type": "icon",
+                      "value": "run"
+                    },
+                    "stroke": {
+                      "opacity": 0.5
+                    }
+                  }
+                }
+              }
+            },
+            [
+              {
+                "type": "directionalPad"
+              }
+            ],
+            {
+              "type": "button",
+              "action": "leftThumb"
+            },
+            {
+              "type": "button",
+              "action": "view",
+              "styles": {
+                "default": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "map"
+                  }
+                }
+              }
+            },
+            {
+              "type": "button",
+              "action": "leftTrigger"
+            },
+            {
+              "type": "button",
+              "action": "leftBumper"
+            },
+            {
+              "type": "joystick",
+              "expand": true,
+              "axis": {
+                "input": "axisXY",
+                "output": "leftJoystick",
+                "deadzone": {
+                  "threshold": 0.05,
+                  "radial": false
+                }
+              }
+            }
+          ]
+        },
+        "right": {
+          "inner": [
+            {
+              "type": "button",
+              "action": "gamepadX"
+            },
+            {
+              "type": "button",
+              "action": "gamepadA"
+            },
+            {
+              "type": "button",
+              "action": "gamepadB"
+            },
+            {
+              "type": "button",
+              "action": "gamepadY"
+            }
+          ],
+          "outer": [
+            [
+              {
+                "type": "button",
+                "action": "rightTrigger"
+              },
+              {
+                "type": "button",
+                "action": "rightBumper"
+              }
+            ],
+            [
+              {
+                "type": "button",
+                "action": "rightTrigger"
+              },
+              null
+            ],
+            {
+              "type": "button",
+              "action": "rightThumb"
+            },
+            [
+              {
+                "type": "joystick",
+                "axis": {
+                  "input": "axisXY",
+                  "output": "rightJoystick",
+                  "deadzone": {
+                    "threshold": 0.05,
+                    "radial": true
+                  }
+                }
+              },
+              {
+                "type": "joystick",
+                "axis": {
+                  "input": "axisXY",
+                  "output": "rightJoystick",
+                  "deadzone": {
+                    "threshold": 0.05,
+                    "radial": true
+                  }
+                }
+              },
+              {
+                "type": "joystick",
+                "axis": {
+                  "input": "axisXY",
+                  "output": "rightJoystick",
+                  "deadzone": {
+                    "threshold": 0.05,
+                    "radial": true
+                  }
+                }
+              },
+              {
+                "type": "joystick",
+                "axis": {
+                  "input": "axisXY",
+                  "output": "rightJoystick",
+                  "deadzone": {
+                    "threshold": 0.05,
+                    "radial": true
+                  }
+                }
+              }
+            ],
+            {
+              "type": "button",
+              "action": "rightThumb"
+            },
+            {
+              "type": "button",
+              "action": "leftThumb"
+            }
+          ]
+        },
+        "upper": {
+          "right": [
+            {
+              "type": "button",
+              "action": "menu"
+            },
+            {
+              "type": "button",
+              "action": "view"
+            },
+            {
+              "type": "button",
+              "action": "gamepadA"
+            },
+            {
+              "type": "button",
+              "action": "gamepadB"
+            },
+            {
+              "type": "button",
+              "action": "gamepadA"
+            },
+            {
+              "type": "button",
+              "action": "gamepadY"
+            }
+          ]
+        },
+        "lower": {
+          "right": [
+            {
+              "type": "button",
+              "action": "gamepada"
+            },
+            {
+              "type": "button",
+              "action": "gamepadx"
+            },
+            {
+              "type": "button",
+              "action": "rightTrigger"
+            },
+            {
+              "type": "button",
+              "action": "rightBumper"
+            },
+            {
+              "type": "button",
+              "action": "gamepadA"
+            },
+            {
+              "type": "button",
+              "action": "gamepadY"
+            }
+          ],
+          "left": [
+            {
+              "type": "button",
+              "action": "gamepada"
+            },
+            {
+              "type": "button",
+              "action": "gamepadx"
+            },
+            {
+              "type": "button",
+              "action": "rightTrigger"
+            },
+            {
+              "type": "button",
+              "action": "rightBumper"
+            },
+            {
+              "type": "button",
+              "action": "gamepadA"
+            },
+            {
+              "type": "button",
+              "action": "gamepadY"
+            }
+          ]
+        }
+      }
+    },
+    "Test2": {
+      "name": "テスト2",
+      "content": {
+        "left": {
+          "inner": [
+            {
+              "type": "joystick",
+              "expand": false,
+              "axis": {
+                "input": "axisXY",
+                "output": "leftJoystick",
+                "deadzone": {
+                  "threshold": 0.05,
+                  "radial": true
+                }
+              }
+            },
+            {
+              "type": "joystick",
+              "expand": true,
+              "axis": {
+                "input": "axisXY",
+                "output": "leftJoystick",
+                "deadzone": {
+                  "threshold": 0.05,
+                  "radial": false
+                }
+              }
+            }
+          ],
+          "outer": [
+            {
+              "type": "joystick",
+              "expand": true,
+              "axis": {
+                "input": "axisXY",
+                "output": "leftJoystick",
+                "deadzone": {
+                  "threshold": 0.05,
+                  "radial": false
+                }
+              }
+            },
+            {
+              "type": "joystick",
+              "expand": true,
+              "axis": {
+                "input": "axisXY",
+                "output": "leftJoystick",
+                "deadzone": {
+                  "threshold": 0.05,
+                  "radial": false
+                }
+              },
+              "styles": {
+                "default": {
+                  "knob": {
+                    "faceimage": {
+                      "type": "icon",
+                      "value": "run"
+                    },
+                    "stroke": {
+                      "opacity": 0.5
+                    }
+                  }
+                }
+              }
+            },
+            [
+              {
+                "type": "directionalPad"
+              }
+            ],
+            {
+              "type": "button",
+              "action": "leftThumb"
+            },
+            {
+              "type": "button",
+              "action": "view",
+              "styles": {
+                "default": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "map"
+                  }
+                }
+              }
+            },
+            {
+              "type": "button",
+              "action": "leftTrigger"
+            },
+            {
+              "type": "button",
+              "action": "leftBumper"
+            },
+            {
+              "type": "joystick",
+              "expand": true,
+              "axis": {
+                "input": "axisXY",
+                "output": "leftJoystick",
+                "deadzone": {
+                  "threshold": 0.05,
+                  "radial": false
+                }
+              }
+            }
+          ]
+        },
+        "right": {
+          "inner": [
+            {
+              "type": "button",
+              "action": "gamepadX"
+            },
+            {
+              "type": "button",
+              "action": "gamepadA"
+            },
+            {
+              "type": "button",
+              "action": "gamepadB"
+            },
+            {
+              "type": "button",
+              "action": "gamepadY"
+            }
+          ],
+          "outer": [
+            [
+              {
+                "type": "button",
+                "action": "rightTrigger"
+              },
+              {
+                "type": "button",
+                "action": "rightBumper"
+              }
+            ],
+            [
+              {
+                "type": "button",
+                "action": "rightTrigger"
+              },
+              null
+            ],
+            {
+              "type": "button",
+              "action": "rightThumb"
+            },
+            [
+              {
+                "type": "joystick",
+                "axis": {
+                  "input": "axisXY",
+                  "output": "rightJoystick",
+                  "deadzone": {
+                    "threshold": 0.05,
+                    "radial": true
+                  }
+                }
+              },
+              {
+                "type": "joystick",
+                "axis": {
+                  "input": "axisXY",
+                  "output": "rightJoystick",
+                  "deadzone": {
+                    "threshold": 0.05,
+                    "radial": true
+                  }
+                }
+              },
+              {
+                "type": "joystick",
+                "axis": {
+                  "input": "axisXY",
+                  "output": "rightJoystick",
+                  "deadzone": {
+                    "threshold": 0.05,
+                    "radial": true
+                  }
+                }
+              },
+              {
+                "type": "joystick",
+                "axis": {
+                  "input": "axisXY",
+                  "output": "rightJoystick",
+                  "deadzone": {
+                    "threshold": 0.05,
+                    "radial": true
+                  }
+                }
+              }
+            ],
+            {
+              "type": "button",
+              "action": "rightThumb"
+            },
+            {
+              "type": "button",
+              "action": "leftThumb"
+            }
+          ]
+        },
+        "upper": {
+          "right": [
+            {
+              "type": "button",
+              "action": "menu"
+            },
+            {
+              "type": "button",
+              "action": "view"
+            },
+            {
+              "type": "button",
+              "action": "gamepadA"
+            },
+            {
+              "type": "button",
+              "action": "gamepadB"
+            },
+            {
+              "type": "button",
+              "action": "gamepadA"
+            },
+            {
+              "type": "button",
+              "action": "gamepadY"
+            }
+          ]
+        },
+        "lower": {
+          "right": [
+            {
+              "type": "button",
+              "action": "gamepada"
+            },
+            {
+              "type": "button",
+              "action": "gamepadx"
+            },
+            {
+              "type": "button",
+              "action": "rightTrigger"
+            },
+            {
+              "type": "button",
+              "action": "rightBumper"
+            },
+            {
+              "type": "button",
+              "action": "gamepadA"
+            },
+            {
+              "type": "button",
+              "action": "gamepadY"
+            }
+          ],
+          "left": [
+            {
+              "type": "button",
+              "action": "gamepada"
+            },
+            {
+              "type": "button",
+              "action": "gamepadx"
+            },
+            {
+              "type": "button",
+              "action": "rightTrigger"
+            },
+            {
+              "type": "button",
+              "action": "rightBumper"
+            },
+            {
+              "type": "button",
+              "action": "gamepadA"
+            },
+            {
+              "type": "button",
+              "action": "gamepadY"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
