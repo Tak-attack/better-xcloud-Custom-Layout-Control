@@ -544,32 +544,7 @@
               "action": "gamepadY"
             }
           ],
-          "left": [
-            {
-              "type": "button",
-              "action": "gamepada"
-            },
-            {
-              "type": "button",
-              "action": "gamepadx"
-            },
-            {
-              "type": "button",
-              "action": "rightTrigger"
-            },
-            {
-              "type": "button",
-              "action": "rightBumper"
-            },
-            {
-              "type": "button",
-              "action": "gamepadA"
-            },
-            {
-              "type": "button",
-              "action": "gamepadY"
-            }
-          ]
+         
         }
       }
     }
