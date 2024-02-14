@@ -1,6 +1,6 @@
 {
 	"name": "Testflight(RPG Time)",
-	"default_layout": "test1",
+	"default_layout": "Test1",
 	"layouts": [
 		"test1"
 	]
