@@ -518,7 +518,7 @@
           ]
         },
         "lower": {
-          "right": [
+          "center": [
             {
               "type": "button",
               "action": "gamepada"
