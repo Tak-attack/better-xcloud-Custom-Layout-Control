@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "layouts": {
+    "custom": {
+      "name": "Custom Layout",
+      "content": {
+        "left": {
+          "inner": [
+            {
+              "type": "joystick",
+              "expand": true,
+              "axis": {
+                "input": "axisXY",
+                "output": "leftJoystick",
+                "deadzone": {
+                  "threshold": 0.05,
+                  "radial": true
+                }
+              },
+              "styles": {
+                "default": {
+                  "knob": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "move"
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "outer": [
+            null,
+            {
+              "type": "button",
+              "action": "rightBumper"
+            },
+            [
+              {
+                "type": "button",
+                "action": "leftTrigger"
+              },
+              null
+            ],
+            [
+              {
+                "type": "directionalPad",
+                "interaction": {
+                  "activationType": "exclusive"
+                }
+              }
+            ],
+            {
+              "type": "button",
+              "action": "leftBumper"
+            },
+            [
+              null,
+              {
+                "type": "button",
+                "action": [
+                  "leftBumper",
+                  "rightBumper"
+                ],
+                "styles": {
+                  "default": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "enterCar"
+                    }
+                  }
+                }
+              },
+              null
+            ]
+          ]
+        },
+        "right": {
+          "inner": [
+            {
+              "type": "joystick",
+              "expand": true,
+              "axis": {
+                "input": "axisXY",
+                "output": "rightJoystick",
+                "deadzone": {
+                  "threshold": 0.05,
+                  "radial": true
+                }
+              },
+              "styles": {
+                "default": {
+                  "knob": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "surf"
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "outer": [
+            null,
+            {
+              "type": "button",
+              "action": "gamepadB",
+              "styles": {
+                "default": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "reset"
+                  }
+                }
+              }
+            },
+            {
+              "type": "button",
+              "action": "gamepadA"
+            },
+            null,
+            [
+              {
+                "type": "button",
+                "action": "rightTrigger"
+              },
+              null
+            ],
+            {
+              "type": "button",
+              "action": "gamepadX",
+              "styles": {
+                "default": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "undo"
+                  }
+                }
+              }
+            },
+            null
+          ]
+        },
+        "upper": {
+          "right": [
+            {
+              "type": "button",
+              "action": "menu"
+            },
+            {
+              "type": "button",
+              "action": "view"
+            },
+            {
+              "type": "button",
+              "action": "gamepadY",
+              "styles": {
+                "default": {
+                  "faceimage": {
+                    "type": "icon",
+                    "value": "switchCamera"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
