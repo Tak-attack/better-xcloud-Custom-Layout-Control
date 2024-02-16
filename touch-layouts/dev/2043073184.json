@@ -1,7 +1,7 @@
 {
-	"name": "Testflight(Halo infinite)",
-	"default_layout": "custom",
+	"name": "Halo infinite",
+	"default_layout": "rightstick",
 	"layouts": [
-		"Shredders"
+		"halo-infinite"
 	]
 }
