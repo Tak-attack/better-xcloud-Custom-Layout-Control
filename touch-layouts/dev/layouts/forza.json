@@ -1,128 +1,128 @@
 {
-  "schema_version":1,
-  "layouts":{
-    "layout-1":{
-      "name":"Layout 1",
-      "content":{
-        "layers":{
-          "dPadDisplay":{
-            "right":{
-              "inner":[
+  "schema_version": 1,
+  "layouts": {
+    "layout-1": {
+      "name": "Layout 1",
+      "content": {
+        "layers": {
+          "dPadDisplay": {
+            "right": {
+              "inner": [
                 {
-                  "type":"directionalPad",
-                  "scale":1.75,
-                  "interaction":{
-                    "activationType":"exclusive"
+                  "type": "directionalPad",
+                  "scale": 1.75,
+                  "interaction": {
+                    "activationType": "exclusive"
                   }
                 }
               ],
-              "outer":[
+              "outer": [
                 {
-                  "type":"blank"
+                  "type": "blank"
                 },
                 {
-                  "type":"blank"
+                  "type": "blank"
                 },
                 {
-                  "type":"blank"
+                  "type": "blank"
                 },
                 {
-                  "type":"blank"
+                  "type": "blank"
                 },
                 {
-                  "type":"blank"
+                  "type": "blank"
                 },
                 {
-                  "type":"blank"
+                  "type": "blank"
                 },
                 {
-                  "type":"blank"
+                  "type": "blank"
                 }
               ]
             }
           }
         },
-        "left":{
-          "inner":[
+        "left": {
+          "inner": [
             {
-              "type":"joystick",
-              "axis":{
-                "input":"axisXY",
-                "output":"leftJoystick",
-                "deadzone":{
-                  "threshold":0.1,
-                  "radial":true
+              "type": "joystick",
+              "axis": {
+                "input": "axisXY",
+                "output": "leftJoystick",
+                "deadzone": {
+                  "threshold": 0.1,
+                  "radial": true
                 }
               },
-              "styles":{
-                "default":{
-                  "knob":{
-                    "faceImage":{
-                      "type":"icon",
-                      "value":"steering"
+              "styles": {
+                "default": {
+                  "knob": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "steering"
                     }
                   }
                 }
               }
             }
           ],
-          "outer":[
+          "outer": [
             {
-              "type":"button",
-              "action":"leftBumper"
+              "type": "button",
+              "action": "leftBumper"
             },
             null,
             [
               {
-                "type":"button",
-                "action":"rightThumb"
+                "type": "button",
+                "action": "rightThumb"
               },
               {
-                "type":"joystick",
-                "axis":{
-                  "input":"axisXY",
-                  "output":"rightJoystick",
-                  "deadzone":{
-                    "threshold":0.1,
-                    "radial":true
+                "type": "joystick",
+                "axis": {
+                  "input": "axisXY",
+                  "output": "rightJoystick",
+                  "deadzone": {
+                    "threshold": 0.1,
+                    "radial": true
                   }
                 },
-                "relative":false,
-                "expand":false,
-                "styles":{
-                  "default":{
-                    "knob":{
-                      "faceImage":{
-                        "type":"icon",
-                        "value":"switchCamera"
+                "relative": false,
+                "expand": false,
+                "styles": {
+                  "default": {
+                    "knob": {
+                      "faceImage": {
+                        "type": "icon",
+                        "value": "switchCamera"
                       },
-                      "stroke":{
-                        "opacity":0.1
+                      "stroke": {
+                        "opacity": 0.1
                       }
                     },
-                    "outline":{
-                      "opacity":0
+                    "outline": {
+                      "opacity": 0
                     }
                   }
                 }
               },
               {
-                "type":"button",
-                "action":"rightBumper"
+                "type": "button",
+                "action": "rightBumper"
               }
             ],
             [
               {
-                "type":"button",
-                "action":{
-                  "type":"layer",
-                  "target":"dPadDisplay"
+                "type": "button",
+                "action": {
+                  "type": "layer",
+                  "target": "dPadDisplay"
                 },
-                "styles":{
-                  "default":{
-                    "faceImage":{
-                      "type":"icon",
-                      "value":"dPad"
+                "styles": {
+                  "default": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "dPad"
                     }
                   }
                 }
@@ -131,39 +131,39 @@
             ],
             [
               {
-                "type":"button",
-                "action":"leftThumb"
+                "type": "button",
+                "action": "leftThumb"
               },
               null
             ]
           ]
         },
-        "right":{
-          "inner":[
+        "right": {
+          "inner": [
             {
-              "type":"button",
-              "action":"rightTrigger",
-              "pullAction":"gamepadA",
-              "styles":{
-                "default":{
-                  "faceImage":{
-                    "type":"icon",
-                    "value":"gasPedal"
+              "type": "button",
+              "action": "rightTrigger",
+              "pullAction": "gamepadA",
+              "styles": {
+                "default": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "gasPedal"
                   }
                 }
               }
             }
           ],
-          "outer":[
+          "outer": [
             [
               {
-                "type":"button",
-                "action":"gamepadB",
-                "styles":{
-                  "default":{
-                    "faceImage":{
-                      "type":"icon",
-                      "value":"add"
+                "type": "button",
+                "action": "gamepadB",
+                "styles": {
+                  "default": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "add"
                     }
                   }
                 }
@@ -171,26 +171,26 @@
               null
             ],
             {
-              "type":"button",
-              "action":"gamepadA",
-              "styles":{
-                "default":{
-                  "faceImage":{
-                    "type":"icon",
-                    "value":"handbrake2"
+              "type": "button",
+              "action": "gamepadA",
+              "styles": {
+                "default": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "handbrake2"
                   }
                 }
               }
             },
             [
               {
-                "type":"button",
-                "action":"leftTrigger",
-                "styles":{
-                  "default":{
-                    "faceImage":{
-                      "type":"icon",
-                      "value":"brakePedal"
+                "type": "button",
+                "action": "leftTrigger",
+                "styles": {
+                  "default": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "brakePedal"
                     }
                   }
                 }
@@ -198,26 +198,26 @@
               null
             ],
             {
-              "type":"button",
-              "action":"gamepadX",
-              "styles":{
-                "default":{
-                  "faceImage":{
-                    "type":"icon",
-                    "value":"subtract"
+              "type": "button",
+              "action": "gamepadX",
+              "styles": {
+                "default": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "subtract"
                   }
                 }
               }
             },
             [
               {
-                "type":"button",
-                "action":"gamepadY",
-                "styles":{
-                  "default":{
-                    "faceImage":{
-                      "type":"icon",
-                      "value":"repeatRefresh"
+                "type": "button",
+                "action": "gamepadY",
+                "styles": {
+                  "default": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "repeatRefresh"
                     }
                   }
                 }
@@ -226,142 +226,142 @@
             ]
           ]
         },
-        "upper":{
-          "right":[
+        "upper": {
+          "right": [
             {
-              "type":"button",
-              "action":"menu"
+              "type": "button",
+              "action": "menu"
             },
             {
-              "type":"button",
-              "action":"view"
+              "type": "button",
+              "action": "view"
             }
           ]
         }
       }
     },
-    "layout-2":{
-      "name":"Layout 2 (Throttle Pedal)",
-      "content":{
-        "layers":{
-          "dPadDisplay":{
-            "right":{
-              "inner":[
+    "layout-2": {
+      "name": "Layout 2 (Throttle Pedal)",
+      "content": {
+        "layers": {
+          "dPadDisplay": {
+            "right": {
+              "inner": [
                 {
-                  "type":"directionalPad",
-                  "scale":1.75,
-                  "interaction":{
-                    "activationType":"exclusive"
+                  "type": "directionalPad",
+                  "scale": 1.75,
+                  "interaction": {
+                    "activationType": "exclusive"
                   }
                 }
               ],
-              "outer":[
+              "outer": [
                 {
-                  "type":"blank"
+                  "type": "blank"
                 },
                 {
-                  "type":"blank"
+                  "type": "blank"
                 },
                 {
-                  "type":"blank"
+                  "type": "blank"
                 },
                 {
-                  "type":"blank"
+                  "type": "blank"
                 },
                 {
-                  "type":"blank"
+                  "type": "blank"
                 },
                 {
-                  "type":"blank"
+                  "type": "blank"
                 },
                 {
-                  "type":"blank"
+                  "type": "blank"
                 }
               ]
             }
           }
         },
-        "left":{
-          "inner":[
+        "left": {
+          "inner": [
             {
-              "type":"joystick",
-              "axis":{
-                "input":"axisXY",
-                "output":"leftJoystick",
-                "deadzone":{
-                  "threshold":0.1,
-                  "radial":true
+              "type": "joystick",
+              "axis": {
+                "input": "axisXY",
+                "output": "leftJoystick",
+                "deadzone": {
+                  "threshold": 0.1,
+                  "radial": true
                 }
               },
-              "styles":{
-                "default":{
-                  "knob":{
-                    "faceImage":{
-                      "type":"icon",
-                      "value":"steering"
+              "styles": {
+                "default": {
+                  "knob": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "steering"
                     }
                   }
                 }
               }
             }
           ],
-          "outer":[
+          "outer": [
             {
-              "type":"button",
-              "action":"leftBumper"
+              "type": "button",
+              "action": "leftBumper"
             },
             null,
             [
               {
-                "type":"button",
-                "action":"rightThumb"
+                "type": "button",
+                "action": "rightThumb"
               },
               {
-                "type":"joystick",
-                "axis":{
-                  "input":"axisXY",
-                  "output":"rightJoystick",
-                  "deadzone":{
-                    "threshold":0.1,
-                    "radial":true
+                "type": "joystick",
+                "axis": {
+                  "input": "axisXY",
+                  "output": "rightJoystick",
+                  "deadzone": {
+                    "threshold": 0.1,
+                    "radial": true
                   }
                 },
-                "relative":false,
-                "expand":false,
-                "styles":{
-                  "default":{
-                    "knob":{
-                      "faceImage":{
-                        "type":"icon",
-                        "value":"switchCamera"
+                "relative": false,
+                "expand": false,
+                "styles": {
+                  "default": {
+                    "knob": {
+                      "faceImage": {
+                        "type": "icon",
+                        "value": "switchCamera"
                       },
-                      "stroke":{
-                        "opacity":0.1
+                      "stroke": {
+                        "opacity": 0.1
                       }
                     },
-                    "outline":{
-                      "opacity":0
+                    "outline": {
+                      "opacity": 0
                     }
                   }
                 }
               },
               {
-                "type":"button",
-                "action":"rightBumper"
+                "type": "button",
+                "action": "rightBumper"
               }
             ],
             [
               {
-                "type":"button",
-                "action":{
-                  "type":"layer",
-                  "target":"dPadDisplay"
+                "type": "button",
+                "action": {
+                  "type": "layer",
+                  "target": "dPadDisplay"
                 },
-                "styles":{
-                  "default":{
-                    "faceImage":{
-                      "type":"icon",
-                      "value":"dPad"
+                "styles": {
+                  "default": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "dPad"
                     }
                   }
                 }
@@ -370,93 +370,93 @@
             ],
             [
               {
-                "type":"button",
-                "action":"leftThumb"
+                "type": "button",
+                "action": "leftThumb"
               },
               null
             ]
           ]
         },
-        "right":{
-          "inner":[
+        "right": {
+          "inner": [
             {
-              "type":"throttle",
-              "axisUp":"rightTrigger",
-              "axisDown":"leftTrigger",
-              "relative":true,
-              "sticky":true,
-              "styles":{
-                "default":{
-                  "knob":{
-                    "faceImage":{
-                      "type":"icon",
-                      "value":"gasPedal"
+              "type": "throttle",
+              "axisUp": "rightTrigger",
+              "axisDown": "leftTrigger",
+              "relative": true,
+              "sticky": true,
+              "styles": {
+                "default": {
+                  "knob": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "gasPedal"
                     }
                   },
-                  "axisUp":{
-                    "stroke":{
-                      "type":"solid",
-                      "color":"#107C10"
+                  "axisUp": {
+                    "stroke": {
+                      "type": "solid",
+                      "color": "#107C10"
                     },
-                    "cap":{
-                      "type":"color",
-                      "value":"#107C10"
+                    "cap": {
+                      "type": "color",
+                      "value": "#107C10"
                     }
                   },
-                  "axisDown":{
-                    "stroke":{
-                      "type":"solid",
-                      "color":"#ff0000"
+                  "axisDown": {
+                    "stroke": {
+                      "type": "solid",
+                      "color": "#ff0000"
                     },
-                    "cap":{
-                      "type":"color",
-                      "value":"#ff0000"
+                    "cap": {
+                      "type": "color",
+                      "value": "#ff0000"
                     }
                   }
                 },
-                "idleUp":{
-                  "knob":{
-                    "stroke":{
-                      "type":"solid",
-                      "color":"#107C10"
-                    }
-                  },
-                  "indicator":{
-                    "type":"solid",
-                    "color":"#107C10"
-                  }
-                },
-                "activatedUp":{
-                  "indicator":{
-                    "type":"solid",
-                    "color":"#107C10"
-                  }
-                },
-                "activatedDown":{
-                  "knob":{
-                    "faceImage":{
-                      "type":"icon",
-                      "value":"brakePedal"
+                "idleUp": {
+                  "knob": {
+                    "stroke": {
+                      "type": "solid",
+                      "color": "#107C10"
                     }
                   },
-                  "indicator":{
-                    "type":"solid",
-                    "color":"#ff0000"
+                  "indicator": {
+                    "type": "solid",
+                    "color": "#107C10"
+                  }
+                },
+                "activatedUp": {
+                  "indicator": {
+                    "type": "solid",
+                    "color": "#107C10"
+                  }
+                },
+                "activatedDown": {
+                  "knob": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "brakePedal"
+                    }
+                  },
+                  "indicator": {
+                    "type": "solid",
+                    "color": "#ff0000"
                   }
                 }
               }
             }
           ],
-          "outer":[
+          "outer": [
             [
               {
-                "type":"button",
-                "action":"gamepadB",
-                "styles":{
-                  "default":{
-                    "faceImage":{
-                      "type":"icon",
-                      "value":"add"
+                "type": "button",
+                "action": "gamepadB",
+                "styles": {
+                  "default": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "add"
                     }
                   }
                 }
@@ -464,13 +464,13 @@
               null
             ],
             {
-              "type":"button",
-              "action":"gamepadA",
-              "styles":{
-                "default":{
-                  "faceImage":{
-                    "type":"icon",
-                    "value":"handbrake2"
+              "type": "button",
+              "action": "gamepadA",
+              "styles": {
+                "default": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "handbrake2"
                   }
                 }
               }
@@ -478,26 +478,26 @@
             null,
             null,
             {
-              "type":"button",
-              "action":"gamepadX",
-              "styles":{
-                "default":{
-                  "faceImage":{
-                    "type":"icon",
-                    "value":"subtract"
+              "type": "button",
+              "action": "gamepadX",
+              "styles": {
+                "default": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "subtract"
                   }
                 }
               }
             },
             [
               {
-                "type":"button",
-                "action":"gamepadY",
-                "styles":{
-                  "default":{
-                    "faceImage":{
-                      "type":"icon",
-                      "value":"repeatRefresh"
+                "type": "button",
+                "action": "gamepadY",
+                "styles": {
+                  "default": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "repeatRefresh"
                     }
                   }
                 }
@@ -506,15 +506,15 @@
             ]
           ]
         },
-        "upper":{
-          "right":[
+        "upper": {
+          "right": [
             {
-              "type":"button",
-              "action":"menu"
+              "type": "button",
+              "action": "menu"
             },
             {
-              "type":"button",
-              "action":"view"
+              "type": "button",
+              "action": "view"
             }
           ]
         }
