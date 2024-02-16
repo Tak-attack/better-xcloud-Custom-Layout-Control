@@ -55,7 +55,6 @@
               "action": "leftBumper"
             },
             [
-              null,
               {
                 "type": "button",
                 "action": [
@@ -138,7 +137,21 @@
                 }
               }
             },
-            null
+            [
+              {
+                "type": "button",
+                "action": "gamepadY",
+                "styles": {
+                  "default": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "lookBehind2"
+                    }
+                  }
+                }
+              },
+              null
+            ]
           ]
         },
         "upper": {
@@ -150,18 +163,6 @@
             {
               "type": "button",
               "action": "view"
-            },
-            {
-              "type": "button",
-              "action": "gamepadY",
-              "styles": {
-                "default": {
-                  "faceimage": {
-                    "type": "icon",
-                    "value": "switchCamera"
-                  }
-                }
-              }
             }
           ]
         }
