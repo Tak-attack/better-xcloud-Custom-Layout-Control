@@ -37,19 +37,14 @@
             },
             [
               {
-                "type": "button",
-                "action": "leftTrigger"
-              },
-              null
-            ],
-            [
-              {
                 "type": "directionalPad",
                 "interaction": {
                   "activationType": "exclusive"
                 }
               }
             ],
+			null,
+			null,
             {
               "type": "button",
               "action": "leftBumper"
@@ -65,7 +60,7 @@
                   "default": {
                     "faceImage": {
                       "type": "icon",
-                      "value": "enterCar"
+                      "value": "lookByHand"
                     }
                   }
                 }
@@ -123,7 +118,22 @@
                 "type": "button",
                 "action": "rightTrigger"
               },
-              null
+			  {
+				"type": "button",
+				"action": "rightThumb",
+				"styles": {
+                  "default": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "switchCamera"
+                    }
+                  }
+                }
+			  },
+              {
+                "type": "button",
+                "action": "leftTrigger"
+              }
             ],
             {
               "type": "button",
