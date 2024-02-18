@@ -43,8 +43,8 @@
                 }
               }
             ],
-			null,
-			null,
+            null,
+            null,
             {
               "type": "button",
               "action": "leftBumper"
@@ -118,10 +118,10 @@
                 "type": "button",
                 "action": "rightTrigger"
               },
-			  {
-				"type": "button",
-				"action": "rightThumb",
-				"styles": {
+              {
+                "type": "button",
+                "action": "rightThumb",
+                "styles": {
                   "default": {
                     "faceImage": {
                       "type": "icon",
@@ -129,7 +129,7 @@
                     }
                   }
                 }
-			  },
+              },
               {
                 "type": "button",
                 "action": "leftTrigger"
