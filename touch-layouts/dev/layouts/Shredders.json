@@ -45,43 +45,45 @@
           ],
           "outer": [
             {
-              "type": "button",
-              "action": "leftBumper",
-              "toggle": true,
-              "styles": {
-                "activated": {
-                  "background": {
-                    "type": "color",
-                    "value": "#faff2e80"
-                  }
-                },
-                "toggled": {
-                  "background": {
-                    "type": "color",
-                    "value": "#faff2e80"
-                  }
+              "type": "joystick",
+              "axis": {
+                "input": "axisXY",
+                "output": "leftJoystick",
+                "deadzone": {
+                  "threshold": 0.5,
+                  "radial": true
                 }
-              }
-            },
-            {
-              "type": "button",
+              },
               "action": "rightBumper",
-              "toggle": true,
               "styles": {
-                "activated": {
-                  "background": {
-                    "type": "color",
-                    "value": "#faff2e80"
-                  }
-                },
-                "toggled": {
-                  "background": {
-                    "type": "color",
-                    "value": "#faff2e80"
+                "default": {
+                  "knob": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "rightBumper"
+                    },
+                    "stroke": {
+                      "type": "solid",
+                      "color": "#faff2e",
+                      "opacity": 0.1
+                    }
+                  },
+                  "outline": {
+                    "stroke": {
+                      "type": "solid",
+                      "color": "#faff2e",
+                      "opacity": 0.1
+                    },
+                    "indicator": {
+                      "type": "color",
+                      "value": "#faff2e",
+                      "opacity": 0.1
+                    }
                   }
                 }
               }
             },
+            null,
             [
               {
                 "type": "button",
@@ -125,7 +127,49 @@
                   }
                 }
               }
-            ]
+            ],
+            null,
+            null,
+            null,
+            {
+              "type": "joystick",
+              "axis": {
+                "input": "axisXY",
+                "output": "leftJoystick",
+                "deadzone": {
+                  "threshold": 0.5,
+                  "radial": true
+                }
+              },
+              "action": "leftBumper",
+              "styles": {
+                "default": {
+                  "knob": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "leftBumper"
+                    },
+                    "stroke": {
+                      "type": "solid",
+                      "color": "#faff2e",
+                      "opacity": 0.1
+                    }
+                  },
+                  "outline": {
+                    "stroke": {
+                      "type": "solid",
+                      "color": "#faff2e",
+                      "opacity": 0.1
+                    },
+                    "indicator": {
+                      "type": "color",
+                      "value": "#faff2e",
+                      "opacity": 0.1
+                    }
+                  }
+                }
+              }
+            }
           ]
         },
         "right": {
@@ -170,12 +214,19 @@
           "outer": [
             {
               "type": "button",
-              "action": "gamepadX",
+              "action": "rightBumper",
+              "toggle": true,
               "styles": {
-                "default": {
-                  "faceImage": {
-                    "type": "icon",
-                    "value": "undo"
+                "activated": {
+                  "background": {
+                    "type": "color",
+                    "value": "#faff2e80"
+                  }
+                },
+                "toggled": {
+                  "background": {
+                    "type": "color",
+                    "value": "#faff2e80"
                   }
                 }
               }
@@ -241,26 +292,19 @@
             ],
             {
               "type": "button",
-              "action": "leftBumper",
-              "toggle": true,
+              "action": "gamepadX",
               "styles": {
-                "activated": {
-                  "background": {
-                    "type": "color",
-                    "value": "#faff2e80"
-                  }
-                },
-                "toggled": {
-                  "background": {
-                    "type": "color",
-                    "value": "#faff2e80"
+                "default": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "undo"
                   }
                 }
               }
             },
             {
               "type": "button",
-              "action": "rightBumper",
+              "action": "leftBumper",
               "toggle": true,
               "styles": {
                 "activated": {
