@@ -30,42 +30,45 @@
             }
           ],
           "outer": [
-            null,
             {
               "type": "button",
-              "action": "rightBumper"
+              "action": "leftBumper",
+              "toggle": true
             },
+            {
+              "type": "button",
+              "action": "rightBumper",
+              "toggle": true
+            },
+            [
+              {
+                "type": "button",
+                "action": "rightTrigger"
+              },
+              {
+                "type": "button",
+                "action": "leftTrigger"
+              }
+            ],
             [
               {
                 "type": "directionalPad",
                 "interaction": {
                   "activationType": "exclusive"
-                }
-              }
-            ],
-            null,
-            null,
-            {
-              "type": "button",
-              "action": "leftBumper"
-            },
-            [
-              {
-                "type": "button",
-                "action": [
-                  "leftBumper",
-                  "rightBumper"
-                ],
+                },
                 "styles": {
                   "default": {
-                    "faceImage": {
-                      "type": "icon",
-                      "value": "lookByHand"
+                    "fill": "#faff2e10",
+                    "gradient": {
+                      "color": "#faff2e10"
+                    },
+                    "stroke": {
+                      "type": "solid",
+                      "color": "#faff2eff"
                     }
                   }
                 }
-              },
-              null
+              }
             ]
           ]
         },
@@ -95,7 +98,18 @@
             }
           ],
           "outer": [
-            null,
+            {
+              "type": "button",
+              "action": "gamepadX",
+              "styles": {
+                "default": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "undo"
+                  }
+                }
+              }
+            },
             {
               "type": "button",
               "action": "gamepadB",
@@ -137,31 +151,14 @@
             ],
             {
               "type": "button",
-              "action": "gamepadX",
-              "styles": {
-                "default": {
-                  "faceImage": {
-                    "type": "icon",
-                    "value": "undo"
-                  }
-                }
-              }
+              "action": "leftBumper",
+              "toggle": true
             },
-            [
-              {
-                "type": "button",
-                "action": "gamepadY",
-                "styles": {
-                  "default": {
-                    "faceImage": {
-                      "type": "icon",
-                      "value": "lookBehind2"
-                    }
-                  }
-                }
-              },
-              null
-            ]
+            {
+              "type": "button",
+              "action": "rightBumper",
+              "toggle": true
+            }
           ]
         },
         "upper": {
@@ -173,6 +170,22 @@
             {
               "type": "button",
               "action": "view"
+            }
+          ]
+        },
+        "lower": {
+          "center": [
+            {
+              "type": "button",
+              "action": "gamepadY",
+              "styles": {
+                "default": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "lookBehind2"
+                  }
+                }
+              }
             }
           ]
         }
