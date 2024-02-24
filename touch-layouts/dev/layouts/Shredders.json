@@ -56,9 +56,9 @@
                 },
                 "styles": {
                   "default": {
-                    "fill": "#faff2eff",
+                    "fill": "#faff2e10",
                     "gradient": {
-                      "color": "#faff2e10"
+                      "color": "#faff2eff"
                     },
                     "stroke": {
                       "color": "#faff2eff",
@@ -172,10 +172,10 @@
           ]
         },
         "lower": {
-          "center": [
-            "button",
-            "gamepadY",
-            {
+          "center": {
+            "0": "button",
+            "1": "gamepadY",
+            "2": {
               "default": {
                 "faceImage": {
                   "type": "icon",
@@ -183,7 +183,7 @@
                 }
               }
             }
-          ]
+          }
         }
       }
     }
