@@ -61,8 +61,8 @@
                       "color": "#faff2eff"
                     },
                     "stroke": {
-                      "color": "#faff2eff",
-                      "type": "solid"
+                      "type": "solid",
+                      "color": "#faff2eff"
                     }
                   }
                 }
@@ -173,9 +173,9 @@
         },
         "lower": {
           "center": {
-            "0": "button",
-            "1": "gamepadY",
-            "2": {
+            "type": "button",
+            "action": "gamepadY",
+            "styles": {
               "default": {
                 "faceImage": {
                   "type": "icon",
