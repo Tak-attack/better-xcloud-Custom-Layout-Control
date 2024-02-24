@@ -23,6 +23,10 @@
                     "faceImage": {
                       "type": "icon",
                       "value": "move"
+                    },
+                    "stroke": {
+                      "type": "solid",
+                      "color": "#faff2e"
                     }
                   },
                   "outline": {
@@ -78,31 +82,19 @@
                 }
               }
             },
-            {
-              "type": "button",
-              "action": "leftTrigger",
-              "styles": {
-                "activated": {
-                  "background": {
-                    "type": "color",
-                    "value": "#faff2e80"
-                  }
-                }
-              }
-            },
-            {
-              "type": "button",
-              "action": "rightTrigger",
-              "styles": {
-                "activated": {
-                  "background": {
-                    "type": "color",
-                    "value": "#faff2e"
-                  }
-                }
-              }
-            },
             [
+              {
+                "type": "button",
+                "action": "leftTrigger",
+                "styles": {
+                  "activated": {
+                    "background": {
+                      "type": "color",
+                      "value": "#faff2e80"
+                    }
+                  }
+                }
+              },
               {
                 "type": "directionalPad",
                 "interaction": {
@@ -117,6 +109,18 @@
                     "stroke": {
                       "type": "solid",
                       "color": "#faff2eff"
+                    }
+                  }
+                }
+              },
+              {
+                "type": "button",
+                "action": "rightTrigger",
+                "styles": {
+                  "activated": {
+                    "background": {
+                      "type": "color",
+                      "value": "#faff2e80"
                     }
                   }
                 }
@@ -143,6 +147,10 @@
                     "faceImage": {
                       "type": "icon",
                       "value": "surf"
+                    },
+                    "stroke": {
+                      "type": "solid",
+                      "color": "#faff2e"
                     }
                   },
                   "outline": {
