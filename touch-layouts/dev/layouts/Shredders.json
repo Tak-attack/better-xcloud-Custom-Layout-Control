@@ -67,18 +67,6 @@
                       "color": "#faff2e",
                       "opacity": 0.1
                     }
-                  },
-                  "outline": {
-                    "stroke": {
-                      "type": "solid",
-                      "color": "#faff2e",
-                      "opacity": 0.1
-                    },
-                    "indicator": {
-                      "type": "color",
-                      "value": "#faff2e",
-                      "opacity": 0.1
-                    }
                   }
                 }
               }
@@ -152,18 +140,6 @@
                     "stroke": {
                       "type": "solid",
                       "color": "#faff2e",
-                      "opacity": 0.1
-                    }
-                  },
-                  "outline": {
-                    "stroke": {
-                      "type": "solid",
-                      "color": "#faff2e",
-                      "opacity": 0.1
-                    },
-                    "indicator": {
-                      "type": "color",
-                      "value": "#faff2e",
                       "opacity": 0.1
                     }
                   }
