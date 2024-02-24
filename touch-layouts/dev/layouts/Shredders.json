@@ -24,6 +24,12 @@
                       "type": "icon",
                       "value": "move"
                     }
+                  },
+                  "outline": {
+                    "stroke": {
+                      "type": "solid",
+                      "color": "#faff2e"
+                    }
                   }
                 }
               }
@@ -33,20 +39,52 @@
             {
               "type": "button",
               "action": "leftBumper",
-              "toggle": true
+              "toggle": true,
+              "styles": {
+                "toggled": {
+                  "background": {
+                    "type": "color",
+                    "value": "#faff2e"
+                  }
+                }
+              }
             },
             {
               "type": "button",
               "action": "rightBumper",
-              "toggle": true
+              "toggle": true,
+              "styles": {
+                "toggled": {
+                  "background": {
+                    "type": "color",
+                    "value": "#faff2e"
+                  }
+                }
+              }
             },
             {
               "type": "button",
-              "action": "rightTrigger"
+              "action": "leftTrigger",
+              "styles": {
+                "activated": {
+                  "background": {
+                    "type": "color",
+                    "value": "#faff2e"
+                  }
+                }
+              }
             },
             {
               "type": "button",
-              "action": "leftTrigger"
+              "action": "rightTrigger",
+              "styles": {
+                "activated": {
+                  "background": {
+                    "type": "color",
+                    "value": "#faff2e"
+                  }
+                }
+              }
             },
             [
               {
@@ -128,7 +166,15 @@
             [
               {
                 "type": "button",
-                "action": "rightTrigger"
+                "action": "rightTrigger",
+                "styles": {
+                  "activated": {
+                    "background": {
+                      "type": "color",
+                      "value": "#faff2e"
+                    }
+                  }
+                }
               },
               {
                 "type": "button",
@@ -138,24 +184,52 @@
                     "faceImage": {
                       "type": "icon",
                       "value": "switchCamera"
+                    },
+                    "background": {
+                      "type": "color",
+                      "value": "#faff2e"
                     }
                   }
                 }
               },
               {
                 "type": "button",
-                "action": "leftTrigger"
+                "action": "leftTrigger",
+                "styles": {
+                  "activated": {
+                    "background": {
+                      "type": "color",
+                      "value": "#faff2e"
+                    }
+                  }
+                }
               }
             ],
             {
               "type": "button",
               "action": "leftBumper",
-              "toggle": true
+              "toggle": true,
+              "styles": {
+                "toggled": {
+                  "background": {
+                    "type": "color",
+                    "value": "#faff2e"
+                  }
+                }
+              }
             },
             {
               "type": "button",
               "action": "rightBumper",
-              "toggle": true
+              "toggle": true,
+              "styles": {
+                "toggled": {
+                  "background": {
+                    "type": "color",
+                    "value": "#faff2e"
+                  }
+                }
+              }
             }
           ]
         },
@@ -163,11 +237,27 @@
           "right": [
             {
               "type": "button",
-              "action": "menu"
+              "action": "menu",
+              "styles": {
+                "activated": {
+                  "background": {
+                    "type": "color",
+                    "value": "#faff2e"
+                  }
+                }
+              }
             },
             {
               "type": "button",
-              "action": "view"
+              "action": "view",
+              "styles": {
+                "activated": {
+                  "background": {
+                    "type": "color",
+                    "value": "#faff2e"
+                  }
+                }
+              }
             }
           ]
         },
