@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Better xCloud
+// @name         Better xCloud Custom Layout test
 // @namespace    https://github.com/Tak-attack
 // @version      3.1.9.t
 // @description  Improve Xbox Cloud Gaming (xCloud) experience
@@ -15,7 +15,7 @@
 'use strict';
 
 const SCRIPT_VERSION = '3.1.9.t';
-const SCRIPT_HOME = ''https://github.com/Tak-attack/better-xcloud-Custom-Layout-Control';
+const SCRIPT_HOME = 'https://github.com/Tak-attack/better-xcloud-Custom-Layout-Control';
 
 const ENABLE_XCLOUD_LOGGER = false;
 const ENABLE_PRELOAD_BX_UI = false;
