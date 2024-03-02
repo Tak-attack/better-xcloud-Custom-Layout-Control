@@ -176,7 +176,7 @@
               "type": "joystick",
               "axis": {
                 "input": "axisXY",
-                "output": "leftJoystick",
+                "output": "rightJoystick",
                 "deadzone": {
                   "threshold": 0.5,
                   "radial": true
@@ -281,7 +281,7 @@
               "type": "joystick",
               "axis": {
                 "input": "axisXY",
-                "output": "leftJoystick",
+                "output": "rightJoystick",
                 "deadzone": {
                   "threshold": 0.5,
                   "radial": true
