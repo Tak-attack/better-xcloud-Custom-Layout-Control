@@ -1,25 +1,25 @@
 // ==UserScript==
 // @name         Better xCloud
-// @namespace    https://github.com/redphx
-// @version      3.1.9
+// @namespace    https://github.com/Tak-attack
+// @version      3.1.9.t
 // @description  Improve Xbox Cloud Gaming (xCloud) experience
-// @author       redphx
+// @author       redphx(Tak-attack)
 // @license      MIT
 // @match        https://www.xbox.com/*/play*
 // @match        https://www.xbox.com/*/auth/msa?*loggedIn*
 // @run-at       document-start
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/redphx/better-xcloud/main/better-xcloud.meta.js
-// @downloadURL  https://github.com/redphx/better-xcloud/releases/latest/download/better-xcloud.user.js
+// @updateURL    https://raw.githubusercontent.com/Tak-attack/better-xcloud-Custom-Layout-Control/raw/custom_layout_dev/better-xcloud.meta.js
+// @downloadURL  https://github.com/Tak-attack/better-xcloud-Custom-Layout-Control/raw/custom_layout_dev/better-xcloud.user.js
 // ==/UserScript==
 'use strict';
 
-const SCRIPT_VERSION = '3.1.9';
-const SCRIPT_HOME = 'https://github.com/redphx/better-xcloud';
+const SCRIPT_VERSION = '3.1.9.t';
+const SCRIPT_HOME = ''https://github.com/Tak-attack/better-xcloud-Custom-Layout-Control';
 
 const ENABLE_XCLOUD_LOGGER = false;
 const ENABLE_PRELOAD_BX_UI = false;
-const USE_DEV_TOUCH_LAYOUT = false;
+const USE_DEV_TOUCH_LAYOUT = true;
 
 let REMOTE_PLAY_SERVER;
 
@@ -3574,7 +3574,7 @@ class TouchController {
             return;
         }
 
-        const baseUrl = `https://raw.githubusercontent.com/redphx/better-xcloud/gh-pages/touch-layouts${USE_DEV_TOUCH_LAYOUT ? '/dev' : ''}`;
+        const baseUrl = `https://raw.githubusercontent.com/Tak-attack/better-xcloud-Custom-Layout-Control/gh-pages/touch-layouts${USE_DEV_TOUCH_LAYOUT ? '/dev' : ''}`;
         const url = `${baseUrl}/${xboxTitleId}.json`;
 
         // Get layout info
