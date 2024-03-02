@@ -83,7 +83,7 @@
                 "input": "axisXY",
                 "output": "leftJoystick",
                 "deadzone": {
-                  "threshold": 0.75,
+                  "threshold": 1.0,
                   "radial": true
                 }
               },
@@ -304,7 +304,7 @@
                 "input": "axisXY",
                 "output": "leftJoystick",
                 "deadzone": {
-                  "threshold": 0.75,
+                  "threshold": -0.5,
                   "radial": true
                 }
               },
