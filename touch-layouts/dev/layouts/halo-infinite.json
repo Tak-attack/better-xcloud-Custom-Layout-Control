@@ -83,7 +83,7 @@
                 "input": "axisXY",
                 "output": "leftJoystick",
                 "deadzone": {
-                  "threshold": 1.0,
+                  "threshold": -1.0,
                   "radial": true
                 }
               },
@@ -247,7 +247,7 @@
       }
     },
     "relativemouse": {
-      "name": "Relative Mouse Mode (Remote Play Only)",
+      "name": "Relative Mouse Mode",
       "content": {
         "layers": {
           "AimTouchpad": {
@@ -304,7 +304,7 @@
                 "input": "axisXY",
                 "output": "leftJoystick",
                 "deadzone": {
-                  "threshold": -0.5,
+                  "threshold": -1.0,
                   "radial": true
                 }
               },
