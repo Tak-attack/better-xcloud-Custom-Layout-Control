@@ -2,7 +2,7 @@
   "schema_version": 1,
   "layouts": {
     "rightstick": {
-      "name": "Default (Right Stick Mode)",
+      "name": "Right Stick Mode (Default)",
       "content": {
         "layers": {
           "AimTouchpad": {
@@ -83,7 +83,7 @@
                 "input": "axisXY",
                 "output": "leftJoystick",
                 "deadzone": {
-                  "threshold": 5.0,
+                  "threshold": 0.01,
                   "radial": true
                 }
               },
@@ -304,7 +304,7 @@
                 "input": "axisXY",
                 "output": "leftJoystick",
                 "deadzone": {
-                  "threshold": 2,
+                  "threshold": 0.01,
                   "radial": true
                 }
               },
