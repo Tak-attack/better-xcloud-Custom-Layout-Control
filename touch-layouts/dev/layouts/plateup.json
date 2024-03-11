@@ -55,15 +55,30 @@
               "type": "button",
               "action": "leftBumper"
             },
+            null,
+            null,
+            {
+              "type": "button",
+              "action": "gamepadX",
+              "styles": {
+                "default": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "interact"
+                  }
+                }
+              }
+            },
+            null,
             [
               {
                 "type": "button",
-                "action": "gamepadX",
+                "action": "gamepadY",
                 "styles": {
                   "default": {
                     "faceImage": {
                       "type": "icon",
-                      "value": "interact"
+                      "value": "accept"
                     }
                   }
                 }
@@ -77,18 +92,6 @@
             {
               "type": "button",
               "action": "menu"
-            },
-            {
-              "type": "button",
-              "action": "gamepadY",
-              "styles": {
-                "default": {
-                  "faceImage": {
-                    "type": "icon",
-                    "value": "accept"
-                  }
-                }
-              }
             }
           ]
         }
