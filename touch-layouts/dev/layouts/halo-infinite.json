@@ -32,11 +32,16 @@
             },
             "sensors": [{
                 "type": "gyroscope",
-                "axis": {
-                  "input": "axisXY",
-                  "output": "rightJoystick",
-                  "sensitivity": 2
-                }
+                "axis": [{
+                      "input": "axisX",
+                      "output": "rightJoystickX",
+                      "sensitivity": 1
+                    }, {
+                      "input": "axisY",
+                      "output": "rightJoystickY",
+                      "sensitivity": 0.5
+                    }
+                  ]
               }
             ]
           }

@@ -1,7 +1,7 @@
 {
 	"name": "Roboquest",
-	"default_layout": "rightstick",
+	"default_layout": "custom",
 	"layouts": [
-		"halo-infinite"
+		"roboquest"
 	]
 }
