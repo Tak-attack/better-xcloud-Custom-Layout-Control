@@ -32,6 +32,12 @@
                     "type": "icon",
                     "value": "character"
                   }
+                },
+                "pulled": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "gamepadA"
+                  }
                 }
               }
             },
@@ -80,6 +86,12 @@
                   "faceImage": {
                     "type": "icon",
                     "value": "interact"
+                  }
+                },
+                "pulled": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "gamepadX"
                   }
                 }
               }
