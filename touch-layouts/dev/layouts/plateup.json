@@ -8,7 +8,6 @@
           "inner": [
             {
               "type": "joystick",
-              "expand": false,
               "axis": {
                 "input": "axisXY",
                 "output": "leftJoystick",
@@ -18,16 +17,6 @@
                 }
               }
             }
-          ],
-          "outer": [
-            null,
-            null,
-            [
-              {
-                "type": "directionalPad",
-                "scale": 1.2
-              }
-            ]
           ]
         },
         "right": {
@@ -53,7 +42,15 @@
             },
             {
               "type": "button",
-              "action": "leftBumper"
+              "action": "leftBumper",
+              "styles": {
+                "default": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "character"
+                  }
+                }
+              }
             },
             null,
             null,
@@ -68,30 +65,27 @@
                   }
                 }
               }
-            },
-            null,
-            [
-              {
-                "type": "button",
-                "action": "gamepadY",
-                "styles": {
-                  "default": {
-                    "faceImage": {
-                      "type": "icon",
-                      "value": "accept"
-                    }
-                  }
-                }
-              },
-              null
-            ]
+            }
           ]
         },
         "upper": {
           "right": [
+            null,
             {
               "type": "button",
               "action": "menu"
+            },
+            {
+              "type": "button",
+              "action": "gamepadY",
+              "styles": {
+                "default": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "accept"
+                  }
+                }
+              }
             }
           ]
         }
