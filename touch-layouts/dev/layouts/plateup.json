@@ -40,18 +40,7 @@
                 }
               }
             },
-            {
-              "type": "button",
-              "action": "leftBumper",
-              "styles": {
-                "default": {
-                  "faceImage": {
-                    "type": "icon",
-                    "value": "character"
-                  }
-                }
-              }
-            },
+            null,
             null,
             null,
             {
@@ -65,7 +54,36 @@
                   }
                 }
               }
-            }
+            },
+            {
+              "type": "button",
+              "action": "leftBumper",
+              "pullAction": "gamepadX",
+              "styles": {
+                "default": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "interact"
+                  }
+                }
+              }
+            },
+            [
+              {
+                "type": "button",
+                "action": "leftBumper",
+                "pullAction": "gamepadA",
+                "styles": {
+                  "default": {
+                    "faceImage": {
+                      "type": "icon",
+                      "value": "character"
+                    }
+                  }
+                }
+              },
+              null
+            ]
           ]
         },
         "upper": {
