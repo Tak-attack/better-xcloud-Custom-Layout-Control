@@ -23,8 +23,23 @@
           "inner": [
             {
               "type": "button",
+              "action": "leftBumper",
+              "pullAction": "gamepadA",
+              "styles": {
+                "default": {
+                  "faceImage": {
+                    "type": "icon",
+                    "value": "character"
+                  }
+                }
+              }
+            },
+            null,
+            {
+              "type": "button",
               "action": "gamepadA"
-            }
+            },
+            null
           ],
           "outer": [
             null,
@@ -67,28 +82,11 @@
                   }
                 }
               }
-            },
-            [
-              {
-                "type": "button",
-                "action": "leftBumper",
-                "pullAction": "gamepadA",
-                "styles": {
-                  "default": {
-                    "faceImage": {
-                      "type": "icon",
-                      "value": "character"
-                    }
-                  }
-                }
-              },
-              null
-            ]
+            }
           ]
         },
         "upper": {
           "right": [
-            null,
             {
               "type": "button",
               "action": "menu"
