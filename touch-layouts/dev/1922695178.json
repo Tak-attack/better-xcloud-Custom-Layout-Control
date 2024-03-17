@@ -1,7 +1,7 @@
 {
 	"name": "PlateUp!",
-	"default_layout": "type-1",
+	"default_layout": "custom",
 	"layouts": [
-		"plateup2"
+		"plateup"
 	]
 }
