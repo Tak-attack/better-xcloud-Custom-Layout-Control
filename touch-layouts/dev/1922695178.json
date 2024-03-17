@@ -1,6 +1,6 @@
 {
 	"name": "PlateUp!",
-	"default_layout": "custom",
+	"default_layout": "type-1",
 	"layouts": [
 		"plateup"
 	]
