@@ -143,7 +143,7 @@
             {
               "type": "button",
               "action": "rightTrigger",
-              "pullAction": "gamepadA",
+              "pullAction": "gamepadY",
               "styles": {
                 "default": {
                   "faceImage": {
@@ -158,29 +158,13 @@
             [
               {
                 "type": "button",
-                "action": "gamepadB",
-                "styles": {
-                  "default": {
-                    "faceImage": {
-                      "type": "icon",
-                      "value": "add"
-                    }
-                  }
-                }
+                "action": "gamepadB"
               },
               null
             ],
             {
               "type": "button",
-              "action": "gamepadA",
-              "styles": {
-                "default": {
-                  "faceImage": {
-                    "type": "icon",
-                    "value": "handbrake2"
-                  }
-                }
-              }
+              "action": "gamepadA"
             },
             [
               {
@@ -199,28 +183,12 @@
             ],
             {
               "type": "button",
-              "action": "gamepadX",
-              "styles": {
-                "default": {
-                  "faceImage": {
-                    "type": "icon",
-                    "value": "subtract"
-                  }
-                }
-              }
+              "action": "gamepadX"
             },
             [
               {
                 "type": "button",
-                "action": "gamepadY",
-                "styles": {
-                  "default": {
-                    "faceImage": {
-                      "type": "icon",
-                      "value": "repeatRefresh"
-                    }
-                  }
-                }
+                "action": "gamepadY"
               },
               null
             ]
@@ -451,56 +419,24 @@
             [
               {
                 "type": "button",
-                "action": "gamepadB",
-                "styles": {
-                  "default": {
-                    "faceImage": {
-                      "type": "icon",
-                      "value": "add"
-                    }
-                  }
-                }
+                "action": "gamepadB"
               },
               null
             ],
             {
               "type": "button",
-              "action": "gamepadA",
-              "styles": {
-                "default": {
-                  "faceImage": {
-                    "type": "icon",
-                    "value": "handbrake2"
-                  }
-                }
-              }
+              "action": "gamepadA"
             },
             null,
             null,
             {
               "type": "button",
-              "action": "gamepadX",
-              "styles": {
-                "default": {
-                  "faceImage": {
-                    "type": "icon",
-                    "value": "subtract"
-                  }
-                }
-              }
+              "action": "gamepadX"
             },
             [
               {
                 "type": "button",
-                "action": "gamepadY",
-                "styles": {
-                  "default": {
-                    "faceImage": {
-                      "type": "icon",
-                      "value": "repeatRefresh"
-                    }
-                  }
-                }
+                "action": "gamepadY"
               },
               null
             ]
